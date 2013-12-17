@@ -242,7 +242,7 @@ func serveFollow(w http.ResponseWriter, r *http.Request, cred *oauth.Credentials
 	respond(w, "follow", profile)
 }
 
-var httpAddr = flag.String("addr", ":80", "HTTP server address")
+var httpAddr = flag.String("addr", ":8080", "HTTP server address")
 
 func main() {
 	flag.Parse()
